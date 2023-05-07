@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Algorithm", "C# Algorithm\C# Algorithm.csproj", "{AED689FB-B843-4B63-8990-53F7ABAB1003}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{AED689FB-B843-4B63-8990-53F7ABAB1003}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Console", "Algorithm.Console\Algorithm.Console.csproj", "{5F9B3E7A-09EF-4044-9690-E9D22A07529E}"
 EndProject
