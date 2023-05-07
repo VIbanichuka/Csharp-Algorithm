@@ -1,3 +1,5 @@
+using System;
+
 namespace C__Algorithm;
 public class TimeConversion
 {
