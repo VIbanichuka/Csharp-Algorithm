@@ -29,14 +29,19 @@ public class Program
         // System.Console.WriteLine(totalNumber);
 
 
-        var compare = new CompareTheTriplets();
-        var a = new List<int>() { 17, 28, 30 };
-        var b = new List<int>() { 99, 16, 8 };
-        var result = compare.CompareTriplets(a, b);
-        for (int i = 0; i < result.Count; i++)
-        {
-            System.Console.WriteLine(result[i]);
-        }
-        
+        // var compare = new CompareTheTriplets();
+        // var a = new List<int>() { 17, 28, 30 };
+        // var b = new List<int>() { 99, 16, 8 };
+        // var result = compare.CompareTriplets(a, b);
+        // for (int i = 0; i < result.Count; i++)
+        // {
+        //     System.Console.WriteLine(result[i]);
+        // }
+
+
+        // var solve = new AVeryBigSum();
+        // var listOfNumbers = new List<long> (){1000000001, 1000000002, 1000000003, 1000000004, 1000000005};
+        // var result = solve.SumArray(listOfNumbers);
+        // Console.WriteLine(result);
     }
 }
