@@ -43,5 +43,14 @@ public class Program
         // var listOfNumbers = new List<long> (){1000000001, 1000000002, 1000000003, 1000000004, 1000000005};
         // var result = solve.SumArray(listOfNumbers);
         // Console.WriteLine(result);
+
+        // var result = new DiagonalDifference();
+        // List<List<int>> matrix = new List<List<int>>()
+        // {
+        //     new List<int>() { 1, 2, 3 },
+        //     new List<int>() { 4, 5, 6 },
+        //     new List<int>() { 9, 8, 9 }
+        // };
+        // Console.WriteLine(result.SolveDiagonalDifference(matrix));
     }
 }
