@@ -82,5 +82,13 @@ public class Program
         System.Threading.Thread.Sleep(10000);
         duration = stopWatch.StopTime();
         System.Console.WriteLine("Duration:" + duration);
+
+        var stack = new Stack();
+        stack.Push("Hello");
+        stack.Push("Hi");
+        stack.Pop();
+
+        var poppedItem = stack.Pop();
+        System.Console.WriteLine("Popped Item:" + poppedItem);
     }
 }
