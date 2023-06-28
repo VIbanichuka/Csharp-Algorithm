@@ -68,8 +68,19 @@ public class Program
         // var r = new TotalNumber();
         // System.Console.WriteLine(r.TotalNumberArray(array));
 
-        var c = new PlusMinus();
-        var list = new List<int> {15,25,35, -1, 0};
-        c.SolvePlusMinus(list);
+        // var c = new PlusMinus();
+        // var list = new List<int> {15,25,35, -1, 0};
+        // c.SolvePlusMinus(list);
+
+        StopWatch stopWatch = new StopWatch();
+        stopWatch.StartTime();
+        System.Threading.Thread.Sleep(2000);
+        TimeSpan duration = stopWatch.StopTime();
+        System.Console.WriteLine("Duration:" + duration);
+        stopWatch.StartTime();
+
+        System.Threading.Thread.Sleep(10000);
+        duration = stopWatch.StopTime();
+        System.Console.WriteLine("Duration:" + duration);
     }
 }
