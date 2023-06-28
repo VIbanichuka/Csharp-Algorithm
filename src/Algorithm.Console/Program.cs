@@ -52,5 +52,24 @@ public class Program
         //     new List<int>() { 9, 8, 9 }
         // };
         // Console.WriteLine(result.SolveDiagonalDifference(matrix));
+
+        // var result = new Task1();
+        // var array = new int [] {15,25,35};
+        // var r = result.Total(array);
+        // System.Console.WriteLine(r);
+
+        // var result = new SwappingNumbers();
+        // result.SwapTwoNumbersMethod3(2, 11);
+
+        // var result = new FIzzBuzz();
+        // result.FizzBuzz();
+
+        // var array = new int [] {15,25,35};        
+        // var r = new TotalNumber();
+        // System.Console.WriteLine(r.TotalNumberArray(array));
+
+        var c = new PlusMinus();
+        var list = new List<int> {15,25,35, -1, 0};
+        c.SolvePlusMinus(list);
     }
 }

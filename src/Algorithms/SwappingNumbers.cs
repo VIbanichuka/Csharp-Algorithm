@@ -6,6 +6,20 @@ public class SwappingNumbers
     public int Num1 { get; set; }
     public int Num2 { get; set; }
 
+    public void SwapTwoNumbersMethod3(int num1, int num2)
+    {
+
+        int temp = 0;
+        Num1 = num1;
+        Num2 = num2;
+
+        temp = num1;
+        num1 = num2;
+        num2 = temp;
+        
+
+        Console.WriteLine("Method1: Number1 is {0} and Number2 is {1}", num1, num2);
+    }
     public void SwapTwoNumbersMethod1(int num1, int num2)
     {
         Num1 = num1;

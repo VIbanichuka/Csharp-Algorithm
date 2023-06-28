@@ -3,12 +3,13 @@ using System;
 namespace C__Algorithm;
 public class TimeConversion
 {
+    //11:30:45PM
     public string? Hour { get; set; }
     public string? Middle { get; set; }
     public string? AmOrPm { get; set; }
     public string ConvertTo24hour(string s)
     {
-        AmOrPm = s.Substring(8, 2);
+        AmOrPm = s.Substring(8,2);
         Hour = s.Substring(0, 2);
         Middle = s.Substring(2, 6);
 
